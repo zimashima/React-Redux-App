@@ -18,7 +18,7 @@ const Trivia = (props) => {
             {props.props.isFetching && <>Loading...</>}
             {props.props.currentQuestion &&
             <>
-            <h5 className="text-center">{props.props.currentQuestion.question}</h5>
+            <h3 className="text-center">{props.props.currentQuestion.question}</h3>
             <span>Category: </span> <span className="badge badge-warning">{props.props.currentQuestion.category}</span>
             <div className="d-flex justify-center">
                 <span class="btn btn-primary m-3" onClick={() => handleAnswer("True")}>True</span>

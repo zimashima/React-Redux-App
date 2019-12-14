@@ -17,7 +17,7 @@ function App(props) {
   const handleHard =() => props.getMode('hard')
   return (
     <div className="container">
-      <h1>Test your Knowledge with these questions!</h1>
+      <h1>Supposed To Be a Fun Trivia Project - Beta 1.0</h1>
       <div className="m-3 d-flex justify-content-around">
         <span className="btn btn-success" onClick={handleEasy}>Easy</span>
         <span className="btn btn-warning" onClick={handleMedium}>Medium</span>
